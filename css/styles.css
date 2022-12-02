@@ -1,0 +1,792 @@
+
+
+
+
+
+*{
+
+padding: 0;
+margin: 0;
+margin-right: 0;
+margin-left: 0;
+font-family: sans-serif;
+box-sizing: border-box;
+color: aliceblue;
+
+
+
+
+}
+
+
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+
+    
+
+
+}
+
+.header{
+    background-color: black;
+    width: 100%;
+}
+
+
+
+nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+
+}
+
+
+
+    
+
+
+  nav .logo{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-right: 130px;
+    margin-top: 40px;
+
+}
+
+.header nav ul  a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 6px;
+    font-size: 16px;
+   
+
+
+}
+
+.header nav #a{
+    background-color:orangered;
+   padding: 50px 10px 20px 10px ; 
+
+}
+
+.header nav ul a:hover{
+    background-color:orangered;
+   padding: 46px 5px 20px 5px ; 
+   margin: auto;
+   font-size: 20px;
+   transition: 1s;
+
+
+
+
+
+}
+
+ul button{
+
+    background-color:orangered;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+
+/*____________section-1__________________*/
+
+
+.section-1{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../image/img1.png");
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    
+}
+
+
+    .section-1 .end{
+        position: relative;
+        top: 350px;
+        left: 600px;
+        border: 2px solid orangered;
+        border-radius: 50%;
+        padding: 5px;
+        width: 38px;
+    }
+
+    .section-1 .end p{
+        font-size: 50px;
+        color: orangered;
+        
+       
+    }
+
+    .section-1 .end p:hover{
+        color: rgb(178, 0, 0);
+        cursor: pointer;
+    }
+        
+
+.div-1{
+
+    position: relative;
+    left: 160px;
+    top: 100px;
+    
+}
+
+
+
+.div-1 h1{
+
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+.div-1 button{
+
+    background-color: orangered;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin: 2px;
+}
+
+
+.div-1 button:hover{
+
+    background-color: black;
+    border: 1px solid white;
+    padding: 16px 35px;
+    transition: 1s;
+
+}
+
+
+
+
+/*__________section-2_____________*/
+
+.section-2{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+
+.section-2 img{
+    width: 400px;
+   
+   
+}
+label{
+    font-size: 12px;
+}
+
+
+
+
+
+#hr-1{
+
+    border:  2px solid orangered;
+
+
+}
+
+
+#hr-2{
+    border:  2px solid orangered;
+    
+
+}
+
+
+#hr-3{
+    border:  2px solid darkgoldenrod;;
+
+
+}
+
+#hr-4{
+    border:  2px solid darkgoldenrod;
+
+}
+
+.section-2 button{
+    background-color: orangered;
+    padding: 15px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.section-2 button:hover{
+    background-color: black;
+    border: 1px solid white;
+
+}
+/*____section-3___*/
+
+/* .section-3{
+
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    
+
+}
+
+.section-3 .one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    
+}
+.section-3 .one p{
+    margin: 0 5px;
+    padding: 25px 50px;
+    background-color: rgb(30, 30, 29);
+    border-radius: 5px;
+   
+}
+
+.section-3 .one p span{
+    background-color: black;
+    padding: 20px 20px;
+    border-radius: 50%;
+}
+
+
+
+.section-3 .one svg{
+    
+height: 15px;    
+}
+
+
+
+.section-3 .tow{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.section-3 .tow p{
+    margin: 0 10px;
+    padding: 20px 50px;
+    background-color: rgb(30, 30, 29);
+    border-radius: 5px;
+   
+}
+
+
+.section-3 .tow svg{
+    
+    height: 15px;    
+    }
+
+
+
+ */
+
+
+/*____section-4___*/
+
+
+ .section-4{
+    width: 100%;
+    height: 47vh;
+   
+    
+ }
+
+ .section-4 .one{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 60px;
+
+
+
+ }
+
+ .section-4 .one h3{
+   
+    margin: 10px;
+    padding: 60px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px dashed white;
+    position: relative;
+    top:50px;
+    background-color: rgb(26, 25, 25);
+
+ }
+
+ .section-4 .one #a{
+    background-color: orangered;
+ }
+
+ .section-4 .one h3:hover{
+    background-color: orangered;
+ }
+
+
+ .section-4 .one #d{
+    padding: 60px 20px;
+
+
+ }
+
+ .section-4 img{
+    position: relative;
+    bottom: 164px;
+    height: 290px;
+    width: 100%;
+    z-index: -1;
+ }
+
+
+
+    
+   
+    
+
+ 
+
+
+ /* .section-5 */
+ 
+ 
+ .section-5 {
+    margin-top: 100px;
+    width: 100%;
+    height: 100vh;
+    
+    
+    
+    
+ }
+    .section-5 .q{
+       display: flex;
+        
+       
+
+    }
+ 
+ 
+ .section-5 .one{
+    text-align: center;
+    line-height: 30px;
+    width: 100%;
+    height: 20vh;
+
+
+ }
+ .section-5 .tow{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 10px;
+    font-size: 13px;
+    
+
+
+ }
+
+ .section-5 .tow p{
+    margin: 5px;
+   
+ }
+
+
+.section-5 .tow #p-1{
+
+    color: crimson;
+    border-style:solid ;
+    border-width: 2px;
+    border-right: crimson;
+    border-left: crimson;
+    border-top: crimson;
+
+}
+
+.section-5 .tow p:hover{
+    color: crimson;
+    border-style:solid ;
+    border-width: 2px;
+    border-right: crimson;
+    border-left: crimson;
+    border-top: crimson;
+    cursor: pointer;
+
+}
+
+
+.section-5  .tree{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+
+}
+
+.section-5  .tree .a,.b{
+}
+
+ .section-5  .tree img{
+    width: 270px;
+    margin: 10px;
+ }
+
+
+ 
+
+ .section-5 #bo{
+
+    text-align: center;
+    margin-top: 20px;
+ }
+
+
+ .section-5 #bo button {
+    color: white;
+   
+    background-color: orangered;
+    padding: 20px 60px;
+    border-radius: 10px;
+    margin: 3px;
+ }
+
+
+ .section-5 #bo button:hover {
+ background-color: black;
+ border: 1px solid white;
+
+ }
+
+
+/* .section-6 */
+
+
+.section-6 {
+    margin-top: 400px;
+
+    width: 100%;
+    height: ;
+    
+
+}
+
+.section-6 .one{
+
+    margin-bottom: 150px;
+    text-align: center;
+
+
+}
+
+.section-6 .tow{
+    text-align: center;
+    margin: 0 250px;
+    background-color: rgb(31, 30, 30);
+    padding: 50px 30px 20px 30px;
+    width: 750px;
+    height: 270px;
+    font-size: 14px;
+    border-radius: 10px;
+    
+    
+}
+
+.section-6 .tow #h4-1{
+    color: orangered;
+    font-size: 25px;
+    
+}
+
+.section-6 .tow .z{
+    
+    margin: 40px;
+
+}
+
+
+
+.section-6 .tow img {
+    width: 150px;
+    position: relative;
+    bottom: 330px;
+    left: 10px;
+    border-radius: 50%;
+    
+}
+
+.section-6 .bo{
+    margin: 20px 0 ;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.section-6 .bo button{
+   padding: 5px 30px;
+   border-radius: 50px;
+   background-color: darkgray;
+}
+.section-6 .bo #bo2{
+    background-color: orangered;
+
+}
+
+
+/* .section-7 */
+
+.section-7{
+    margin-top: 200px;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    
+   
+   
+}
+
+
+
+.section-7 button{
+    background-color: orangered;
+    border: 2px solid orangered;
+    padding: 15px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.section-7 button:hover{
+    background-color: black;
+    border: 1px solid white;
+
+}
+.section-7 img{
+    width: 100%;
+    height: 300px;
+    z-index: -1;
+    position: relative;
+    bottom: 200px;
+}
+    
+/* ___________.section-8___________ */
+
+
+.section-8{
+    width: 100%;
+    height: 100vh;
+
+
+    
+}
+.section-8 .start{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-8 .start h1{
+
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+
+
+}
+
+.section-8 .start p{
+
+    font-size: 10px;
+    line-height: 20px;
+
+
+}
+
+
+
+.section-8 .all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-8 .one .a {
+    margin: -15px;
+    height: 150px;
+    width: 300px;
+    padding: 20px;
+    position: absolute;
+    background-color: rgb(31, 31, 31);
+    position: relative;
+    left: 25px;
+
+    
+    
+
+}
+
+.section-8 .one .a  p{
+    font-size: 12px;
+}
+
+.section-8 img{
+    width: 300px;
+    margin: 10px;
+}
+
+.section-8 .send{
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.section-8 button{
+    background-color: orangered;
+    border: 2px solid orangered;
+    padding: 15px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.section-8 button:hover{
+    background-color: black;
+    border: 1px solid white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    footer{
+        width: 100%;
+        height: 100vh;
+       background-color: rgb(12, 12, 12);
+    
+        
+        
+
+    }
+
+
+  
+
+       
+
+   
+
+    
+
+
+
+    .f-2{
+
+        
+        position: relative;
+        left: 500px;
+        bottom: 110px;
+        margin-top: 100px;
+        
+
+    }
+
+
+    input,textarea{
+
+        width: 300px;
+        height: 70px;
+        margin: 15px;
+        border-radius: 5px;
+        background-color: black;
+
+    }
+
+    textarea{
+        width: 633px;
+        height: 150px;
+        resize: none;
+    }
+    
+    input[type="submit"]{
+
+        background-color:orangered;
+        border-radius: 15px;
+        width: 150px;
+        font-size:15px;
+
+    }
+
+    input[type="submit"]:hover{
+        background-color: black;
+        border: 1px solid floralwhite;
+
+
+    }
+
+
+    .foter-end{
+        height: 10vh;
+        text-align: center;
+    }
+
+@keyframes v{
+    from{color: orangered;}
+    to{color: blue;}
+}
+    footer h4{
+        position: relative;
+        bottom: 100px;
+        right: 50px;
+        font-size: 50px;
+        text-align: right;
+        color: orangered;
+        position: fixed;
+        cursor: pointer;
+        animation-name: v;
+        animation-direction: 3s;
+        animation-iteration-count: 3;
+       
+    }
+
+    footer h4:hover{
+        color: blue;
+        transition:1s;
+        font-size: 60px;
+      
+    }
+
+
+
+
